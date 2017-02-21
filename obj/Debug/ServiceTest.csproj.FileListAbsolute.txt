@@ -1,0 +1,17 @@
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\obj\Debug\ServiceTest.csprojResolveAssemblyReference.cache
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\bin\ServiceTest.dll
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\bin\ServiceTest.pdb
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\bin\FMobileJW.dll
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\bin\Newtonsoft.Json.dll
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\bin\Avianca.Lukas.Comunes.dll
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\bin\Avianca.LoggingManager.dll
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\bin\FMobileJW.pdb
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\bin\FMobileJW.XmlSerializers.dll
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\obj\Debug\ServiceTest.dll
+C:\Users\c.agudelo.giraldo\Desktop\Proyectos\FMobileJW\ServiceTest\obj\Debug\ServiceTest.pdb
+C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\bin\ServiceTest.dll.config
+C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\bin\ServiceTest.dll
+C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\bin\ServiceTest.pdb
+C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\obj\Debug\ServiceTest.csprojResolveAssemblyReference.cache
+C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\obj\Debug\ServiceTest.dll
+C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\obj\Debug\ServiceTest.pdb
