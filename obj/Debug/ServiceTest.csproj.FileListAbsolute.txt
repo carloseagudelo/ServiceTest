@@ -15,3 +15,9 @@ C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\bin\ServiceTest
 C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\obj\Debug\ServiceTest.csprojResolveAssemblyReference.cache
 C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\obj\Debug\ServiceTest.dll
 C:\Users\agude\Documents\Visual Studio 2015\Projects\ServiceTest\obj\Debug\ServiceTest.pdb
+C:\Users\c.agudelo.giraldo\Desktop\ServiceTest\bin\ServiceTest.dll.config
+C:\Users\c.agudelo.giraldo\Desktop\ServiceTest\bin\ServiceTest.dll
+C:\Users\c.agudelo.giraldo\Desktop\ServiceTest\bin\ServiceTest.pdb
+C:\Users\c.agudelo.giraldo\Desktop\ServiceTest\obj\Debug\ServiceTest.csprojResolveAssemblyReference.cache
+C:\Users\c.agudelo.giraldo\Desktop\ServiceTest\obj\Debug\ServiceTest.dll
+C:\Users\c.agudelo.giraldo\Desktop\ServiceTest\obj\Debug\ServiceTest.pdb

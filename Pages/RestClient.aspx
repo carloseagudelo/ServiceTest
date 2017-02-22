@@ -30,11 +30,16 @@
             <!-- Seleccion del metodo HTTP -->
             <div class="col-md-6 col-md-4">
               <select class="form-control" id="metodohttp" runat="server">                
-                <option value="POST">POST</option>
                 <option value="GET">GET</option>
+                <option value="POST">POST</option>                
                 <option value="PUT">PUT</option>
                 <option value="PATCH">PATCH</option>
                 <option value="DELETE">DELETE</option>
+                <option value="TRACE">TRACE</option>
+                <option value="OPTIONS">OPTIONS</option>
+                <option value="CONNECT">CONNECT</option>
+                <option value="PATCH">PATCH</option>
+                <option value="SEARCH">SEARCH</option>
               </select>
             </div>            
             <div class="col-md-6 col-md-1">         
@@ -69,7 +74,7 @@
                 </div>
             </div>
           </div> 
-
+          
           <!-- Parametros de la petición clave valor --> 
           <div class="panel panel-default" id="panelClaveValor" runat="server">
            <div class="panel-body">
@@ -148,7 +153,8 @@
            </div>
           </div>
 
-           <input id="iterador" type="hidden" runat="server" />
+          <!-- Variable de comunicació del codigo JavaScript con C# -->
+          <input id="iterador" type="hidden" runat="server" />
 
         </form>
     </div>

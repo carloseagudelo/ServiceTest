@@ -74,21 +74,23 @@ namespace ServiceTest.Pages
         private string CapturarRespuestaMetodo(string metodo, string servicio, string parametros)
         {
             string resultado = string.Format(""); // Instania un variable donde se almaenara el mensaje que retorna el servidor
+            HttpWebResponse httpResponse = null; // Define una variable de tipo HttpWebResponse
 
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(string.Format(servicio)); //(HttpWebRequest)WebRequest.Create(string.Format("http://{1}//FMobileJW_Prod/Mobile.svc/json/{0}", servicio, HttpContext.Current.Request.Url.Host)); // Crea una intancia de objeto de tipo httpWebRequest asignando la url del servicio, donde el host de la url se captura directamente de la url donde se ejecuta el formulario
-            //httpWebRequest.ContentType = "application/json"; // Asigna el ContentType a la paraetrización del servicio
+            httpWebRequest.ContentType = "application/json"; // Asigna el ContentType a la paraetrización del servicio
             httpWebRequest.Method = metodo; // Asigna el metodo a la parametrización del servicio
-
-            HttpWebResponse httpResponse = null;
-
+            
             try
             {
-                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream())) // Inicializa un flujo de salida con la información parametrizada del servicio
+                if (!metodo.Equals(string.Format("GET"))) // Valida el tipo de peticion a realizar
                 {
-                    string json = parametros; // Obtiene los parametros enviados por el usuario para la petición
-                    streamWriter.Write(json); // Envia la información de los paratros en el flujo de salida
-                    streamWriter.Flush(); // Limpia el buffer de salida anteriormente usado
-                    streamWriter.Close(); // Cierra el buffer de salida
+                    using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream())) // Inicializa un flujo de salida con la información parametrizada del servicio
+                    {
+                        string json = parametros; // Obtiene los parametros enviados por el usuario para la petición
+                        streamWriter.Write(json); // Envia la información de los paratros en el flujo de salida
+                        streamWriter.Flush(); // Limpia el buffer de salida anteriormente usado
+                        streamWriter.Close(); // Cierra el buffer de salida
+                    }
                 }
 
                 httpResponse = (HttpWebResponse)httpWebRequest.GetResponse(); // Envia la petición al servidor, y obtiene la respuesta del servicio
@@ -180,7 +182,6 @@ namespace ServiceTest.Pages
         /// </summary>
         protected void servicios_SelectedIndexChanged1(object sender, EventArgs e)
         {
-                      
         }
     }
 }
